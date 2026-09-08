@@ -8,6 +8,8 @@ Not affiliated with, and not part of, the official
 package. Install the official skills for core Mermail workflows; this one sits
 next to them.
 
+**[Open the live demo →](https://claude.ai/code/artifact/fa6615e7-4a88-40c6-bc9e-74ca09c2e713)**
+
 ![The brief, with the inbox on the left and the selected message's summary, cited action items, and draft on the right](docs/screenshots/01-brief-overview.png)
 
 ---
@@ -84,7 +86,8 @@ npm run demo                  # brief over the bundled sample inbox
 npm run build:demo            # regenerate demo/index.html and demo/brief.sample.json
 ```
 
-Open `demo/index.html` in a browser for the review surface in the screenshots.
+Open `demo/index.html` in a browser for the review surface in the screenshots, or
+use the [hosted copy](https://claude.ai/code/artifact/fa6615e7-4a88-40c6-bc9e-74ca09c2e713).
 
 ### Against your own mailbox
 

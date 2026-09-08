@@ -1,11 +1,13 @@
 # Submission pack
 
-Paste-ready copy for the bounty form and social. Fill the two bracketed values
-before submitting.
+Paste-ready copy for the bounty form and social. Record the demo (see
+[DEMO_SCRIPT.md](DEMO_SCRIPT.md)) and drop its URL into the two `[VIDEO_URL]`
+slots before submitting; everything else is filled in.
 
 - Repository: https://github.com/fmencoder/mermail-agent-skill
 - Demo video: `[VIDEO_URL]`
-- Live demo page: `[PAGES_URL or "open demo/index.html"]`
+- Live demo page: https://claude.ai/code/artifact/fa6615e7-4a88-40c6-bc9e-74ca09c2e713
+- Offline copy of the same page: `demo/index.html`
 
 ---
 
@@ -70,7 +72,8 @@ grades it. Two processes, one of which can reach the network.
 Node 22, zero dependencies, MIT.
 
 - Repo: https://github.com/fmencoder/mermail-agent-skill
-- Demo: `[VIDEO_URL]`
+- Live demo: https://claude.ai/code/artifact/fa6615e7-4a88-40c6-bc9e-74ca09c2e713
+- Video: `[VIDEO_URL]`
 - Skill: `skills/mermail-inbox-brief/`
 - Schema: `mermail.inbox-brief/v1`
 
