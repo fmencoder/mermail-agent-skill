@@ -1,0 +1,44 @@
+{
+  "name": "mermail-inbox-brief",
+  "version": "0.1.0",
+  "description": "Community Mermail agent skill: evidence-bound inbox triage that classifies, summarizes, extracts cited action items, and prepares reply drafts that stop for human approval.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "mermail-brief": "src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "skills",
+    "fixtures",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node tests/validate-skill.mjs && node --test tests/*.test.mjs",
+    "test:skill": "node tests/validate-skill.mjs",
+    "test:behavior": "node --test tests/*.test.mjs",
+    "demo": "node src/cli.mjs brief --input fixtures/sample-inbox.json --now 2026-09-08T09:00:00Z --address you@agent.mermail.app",
+    "demo:json": "node src/cli.mjs brief --input fixtures/sample-inbox.json --now 2026-09-08T09:00:00Z --mailbox 8f2c1a44-9d3e-4b7a-8c11-2e6f0b5d9a30 --address you@agent.mermail.app --format json --out demo/brief.sample.json",
+    "demo:html": "node src/cli.mjs render --input fixtures/sample-inbox.json --now 2026-09-08T09:00:00Z --mailbox 8f2c1a44-9d3e-4b7a-8c11-2e6f0b5d9a30 --address you@agent.mermail.app --out demo/index.html",
+    "build:demo": "npm run demo:json && npm run demo:html"
+  },
+  "keywords": [
+    "mermail",
+    "agent-skill",
+    "mcp",
+    "email",
+    "triage",
+    "inbox",
+    "claude",
+    "codex",
+    "cursor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmencoder/mermail-agent-skill.git"
+  }
+}
